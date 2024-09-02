@@ -1,0 +1,23 @@
+.addWrap {
+    width: 90%;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    .addformWrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        input {
+            width: 100%;
+            padding: 8px 10px;
+            margin-right: 10px;
+            border: 2px solid #809da5;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+    }
+}

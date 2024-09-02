@@ -1,0 +1,17 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    input[type="checkbox"]:checked + span {
+        color: gray;
+        text-decoration: line-through;
+    }
+    span {
+        margin-left: 10px;
+    }
+}

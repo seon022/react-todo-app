@@ -1,38 +1,61 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+body {
+    background-color: rgb(193, 208, 213);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 기본 스타일 */
+html {
+    font-size: 16px; /* 기본 폰트 크기 설정 */
+    line-height: 1.5; /* 기본 줄 높이 설정 */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    min-height: 100vh; /* 최소 높이를 뷰포트 높이로 설정 */
+    background-color: #f8f9fa; /* 배경색 설정 */
+    color: #212529; /* 기본 텍스트 색상 설정 */
+    font-family: Arial, sans-serif; /* 기본 폰트 설정 */
+    padding: 20px; /* 본문 패딩 설정 */
 }
 
-.App-link {
-  color: #61dafb;
+/* 링크 스타일 */
+a {
+    text-decoration: none; /* 링크 밑줄 제거 */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
+}
+
+/* 리스트 스타일 */
+ul,
+ol {
+    list-style: none; /* 기본 리스트 스타일 제거 */
+}
+
+/* 이미지 스타일 */
+img {
+    max-width: 100%; /* 이미지의 최대 너비를 부모 요소에 맞춤 */
+    height: auto; /* 이미지의 높이를 자동으로 조정 */
+}
+
+/* 버튼 스타일 */
+button {
+    cursor: pointer; /* 버튼에 마우스 포인터 추가 */
+    background-color: #007bff; /* 버튼 배경색 설정 */
+    color: white; /* 버튼 텍스트 색상 설정 */
+    border: none; /* 기본 테두리 제거 */
+    padding: 10px 15px; /* 버튼 패딩 설정 */
+    border-radius: 5px; /* 버튼 모서리 둥글게 설정 */
 }
